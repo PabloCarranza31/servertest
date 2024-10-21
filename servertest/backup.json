@@ -1,0 +1,296 @@
+{
+  "sensores": [
+    {
+      "_id": "ObjectId('unique_sensor_id_1')",
+      "usuario_id": "ObjectId('unique_user_id_1')",
+      "casco_id": "casco_123"
+    },
+    {
+      "_id": "ObjectId('unique_sensor_id_2')",
+      "usuario_id": "ObjectId('unique_user_id_2')",
+      "casco_id": "casco_456"
+    }
+  ],
+  "usuarios": [
+    {
+      "_id": "ObjectId('unique_user_id_2')",
+      "nombre": "Maria Gomez",
+      "email": "maria.gomez@example.com",
+      "telefono": 9876543210,
+      "fecha_registro": "2024-07-09T00:00:00Z",
+      "casco_id": "casco_456"
+    },
+    {
+      "_id": "ObjectId('unique_user_id_1')",
+      "nombre": "Juan Perez",
+      "email": "juan.perez@example.com",
+      "telefono": 1234567890,
+      "fecha_registro": "2024-07-09T00:00:00Z",
+      "casco_id": "casco_123"
+    },
+    {
+      "_id": "668ee06de5a244990b72bb10",
+      "nombre": "pablo ceesar carranza garcia",
+      "email": "pablogarcia31503@gmail.com",
+      "telefono": 3330668613,
+      "fecha_registro": "2024-07-09T00:00:00.000Z",
+      "casco_id": "casco_31503",
+      "password": "hola123",
+      "__v": 0
+    },
+    {
+      "_id": "66905b4402277731251a8fe5",
+      "nombre": "pablo ceesar carranza garcia",
+      "email": "pablogarcia31403@gmail.com",
+      "telefono": 3330668613,
+      "fecha_registro": "2024-07-09T00:00:00.000Z",
+      "casco_id": "casco_31503",
+      "password": "hola123",
+      "__v": 0
+    },
+    {
+      "_id": "66905e08ad2c8e6d2fe90515",
+      "nombre": "pablo",
+      "email": "mhvxv123@jpdlo.frp",
+      "password": "1234567",
+      "__v": 0
+    },
+    {
+      "_id": "66905e35ad2c8e6d2fe90517",
+      "nombre": "pablo2",
+      "email": "mhvxv1234@jpdlo.frp",
+      "password": "1234567",
+      "__v": 0
+    },
+    {
+      "_id": "66905e4bad2c8e6d2fe90519",
+      "nombre": "pablo4",
+      "email": "mhvxv1235@jpdlo.frp",
+      "password": "Odfdqgrqd1",
+      "__v": 0
+    },
+    {
+      "_id": "66956ee3d19e41066f6c875e",
+      "nombre": "juan",
+      "email": "sdeor123@jpdlo.frp",
+      "password": "krod123",
+      "__v": 0,
+      "fecha_registro": ""
+    },
+    {
+      "_id": "6695759754309292f74da0de",
+      "nombre": "pablo",
+      "email": "sdeorjdufld31503@jpdlo.frp",
+      "telefono": 3330668613,
+      "password": "krod123",
+      "__v": 0,
+      "role": "admin"
+    },
+    {
+      "_id": "6696d60328518d40f54f8fd1",
+      "nombre": "jesus",
+      "email": "mhvxv.exhqr.22h@xwcpj.hgx.pa",
+      "telefono": 3327285902,
+      "password": "123",
+      "__v": 0
+    },
+    {
+      "_id": "669720900fb07a8ba15f3c34",
+      "nombre": "juan",
+      "email": "mxdq@jpdlo.frp",
+      "telefono": 3313524165,
+      "password": "12345",
+      "__v": 0
+    },
+    {
+      "_id": "66993e5028518d40f54f8fe6",
+      "nombre": "pao",
+      "email": "mh.exhqr.22h@xwcpj.hgx.pa",
+      "telefono": 3327285902,
+      "password": "123",
+      "__v": 0
+    },
+    {
+      "_id": "6699aeca33971961b59094de",
+      "nombre": "edgar sad asd",
+      "email": "hgjdu.l45531@jpdlo.frp",
+      "telefono": 3311759742,
+      "password": "N5uixq8QjWraAg",
+      "__v": 0
+    },
+    {
+      "_id": "669aa83a0627f206f4c11ed1",
+      "nombre": "Edgar",
+      "email": "hgjdu.pdbrudo@xwcpj.hgx.pa",
+      "telefono": 3311759742,
+      "password": "Nzu130900",
+      "__v": 0
+    }
+  ],
+  "gps": [
+    {
+      "_id": "ObjectId('unique_gps_id_2')",
+      "latitud": "34.0522 N",
+      "altitud": "50 m",
+      "longitud": "118.2437 W",
+      "sensor_id": "ObjectId('unique_sensor_id_2')",
+      "fecha": "2024-07-09T00:00:00Z"
+    },
+    {
+      "_id": "ObjectId('unique_gps_id_1')",
+      "latitud": "19.4326 N",
+      "altitud": "2000 m",
+      "longitud": "99.1332 W",
+      "sensor_id": "ObjectId('unique_sensor_id_1')",
+      "fecha": "2024-07-09T00:00:00Z"
+    }
+  ],
+  "usuarios_masked": [
+    {
+      "_id": "ObjectId('unique_user_id_2')",
+      "nombre": "Maria Gomez",
+      "email": "maria.gomez@example.com",
+      "telefono": 9876543210,
+      "fecha_registro": "2024-07-09T00:00:00Z",
+      "casco_id": "casco_456"
+    },
+    {
+      "_id": "ObjectId('unique_user_id_1')",
+      "nombre": "Juan Perez",
+      "email": "juan.perez@example.com",
+      "telefono": 1234567890,
+      "fecha_registro": "2024-07-09T00:00:00Z",
+      "casco_id": "casco_123"
+    },
+    {
+      "_id": "668ee06de5a244990b72bb10",
+      "nombre": "pablo ceesar carranza garcia",
+      "email": "pablogarcia31503@gmail.com",
+      "telefono": 3330668613,
+      "fecha_registro": "2024-07-09T00:00:00.000Z",
+      "casco_id": "casco_31503",
+      "password": "hola123",
+      "__v": 0
+    },
+    {
+      "_id": "66905b4402277731251a8fe5",
+      "nombre": "pablo ceesar carranza garcia",
+      "email": "pablogarcia31403@gmail.com",
+      "telefono": 3330668613,
+      "fecha_registro": "2024-07-09T00:00:00.000Z",
+      "casco_id": "casco_31503",
+      "password": "hola123",
+      "__v": 0
+    },
+    {
+      "_id": "66905e08ad2c8e6d2fe90515",
+      "nombre": "pablo",
+      "email": "mhvxv123@jpdlo.frp",
+      "password": "1234567",
+      "__v": 0
+    },
+    {
+      "_id": "66905e35ad2c8e6d2fe90517",
+      "nombre": "pablo2",
+      "email": "mhvxv1234@jpdlo.frp",
+      "password": "1234567",
+      "__v": 0
+    },
+    {
+      "_id": "66905e4bad2c8e6d2fe90519",
+      "nombre": "pablo4",
+      "email": "mhvxv1235@jpdlo.frp",
+      "password": "Odfdqgrqd1",
+      "__v": 0
+    },
+    {
+      "_id": "66956ee3d19e41066f6c875e",
+      "nombre": "juan",
+      "email": "sdeor123@jpdlo.frp",
+      "password": "krod123",
+      "__v": 0,
+      "fecha_registro": ""
+    },
+    {
+      "_id": "6695759754309292f74da0de",
+      "nombre": "pablo",
+      "email": "sdeorjdufld31503@jpdlo.frp",
+      "telefono": 3330668613,
+      "password": "krod123",
+      "__v": 0,
+      "role": "admin"
+    },
+    {
+      "_id": "6696d60328518d40f54f8fd1",
+      "nombre": "jesus",
+      "email": "mhvxv.exhqr.22h@xwcpj.hgx.pa",
+      "telefono": 3327285902,
+      "password": "123",
+      "__v": 0
+    },
+    {
+      "_id": "669720900fb07a8ba15f3c34",
+      "nombre": "juan",
+      "email": "mxdq@jpdlo.frp",
+      "telefono": 3313524165,
+      "password": "12345",
+      "__v": 0
+    },
+    {
+      "_id": "66993e5028518d40f54f8fe6",
+      "nombre": "pao",
+      "email": "mh.exhqr.22h@xwcpj.hgx.pa",
+      "telefono": 3327285902,
+      "password": "123",
+      "__v": 0
+    },
+    {
+      "_id": "6699aeca33971961b59094de",
+      "nombre": "edgar sad asd",
+      "email": "hgjdu.l45531@jpdlo.frp",
+      "telefono": 3311759742,
+      "password": "N5uixq8QjWraAg",
+      "__v": 0
+    },
+    {
+      "_id": "669aa83a0627f206f4c11ed1",
+      "nombre": "Edgar",
+      "email": "hgjdu.pdbrudo@xwcpj.hgx.pa",
+      "telefono": 3311759742,
+      "password": "Nzu130900",
+      "__v": 0
+    }
+  ],
+  "impacto": [
+    {
+      "_id": "ObjectId('unique_impacto_id_1')",
+      "fuerza": 9.8,
+      "descripcion": "Pequeño impacto",
+      "sensor_id": "ObjectId('unique_sensor_id_1')",
+      "fecha": "2024-07-09T00:00:00Z"
+    },
+    {
+      "_id": "ObjectId('unique_impacto_id_2')",
+      "fuerza": 15.5,
+      "descripcion": "Impacto moderado",
+      "sensor_id": "ObjectId('unique_sensor_id_2')",
+      "fecha": "2024-07-09T00:00:00Z"
+    }
+  ],
+  "velocidad": [
+    {
+      "_id": "ObjectId('unique_velocidad_id_1')",
+      "valor": 55.5,
+      "unidad": "km/h",
+      "sensor_id": "ObjectId('unique_sensor_id_1')",
+      "fecha": "2024-07-09T00:00:00Z"
+    },
+    {
+      "_id": "ObjectId('unique_velocidad_id_2')",
+      "valor": 65,
+      "unidad": "km/h",
+      "sensor_id": "ObjectId('unique_sensor_id_2')",
+      "fecha": "2024-07-09T00:00:00Z"
+    }
+  ]
+}

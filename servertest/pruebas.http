@@ -1,0 +1,47 @@
+### 
+get http://localhost:5000/api/users
+
+
+###
+POST http://localhost:5000/api/users/registro
+Content-Type: application/json
+
+{
+  "nombre": "pablo ceesar carranza garcia",
+  "email": "pablogarcia31403@gmail.com",
+  "telefono": 3330668613,
+  "fecha_registro": "2024-07-09T00:00:00Z",
+  "casco_id": "casco_31503",
+  "password": "hola123"
+}
+
+###
+PUT http://localhost:5000/api/users/668ec2417eaa93ad940426ea
+Content-Type: application/json
+
+{
+  "nombre": "nombre actualizado",
+  "email": "email_actualizado@example.com",
+  "telefono": 1234567890,
+  "fecha_registro": "2024-07-09T00:00:00Z",
+  "casco_id": "casco_actualizado",
+  "password": "nueva_contraseña"
+}
+
+
+###
+DELETE http://localhost:5000/api/users/668ec2417eaa93ad940426ea
+
+
+###
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+  
+  "email": "pablogarcia31503@gmail.com",
+  "password": "hola123"
+}
+
+###
+Post http://localhost:5000/api/users/backup
